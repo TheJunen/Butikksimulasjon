@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get prepared prøve 4", "Get prepared prøve 4\Get prepared prøve 4.csproj", "{C9720F7F-B86E-47E5-9A57-00555A69D44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Butikksimulasjon", "Butikksimulasjon/Butikksimulasjon.csproj", "{E5FAE35D-0E88-4EB3-890C-EC7E5BBB0A2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C9720F7F-B86E-47E5-9A57-00555A69D44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9720F7F-B86E-47E5-9A57-00555A69D44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9720F7F-B86E-47E5-9A57-00555A69D44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9720F7F-B86E-47E5-9A57-00555A69D44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FAE35D-0E88-4EB3-890C-EC7E5BBB0A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FAE35D-0E88-4EB3-890C-EC7E5BBB0A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FAE35D-0E88-4EB3-890C-EC7E5BBB0A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FAE35D-0E88-4EB3-890C-EC7E5BBB0A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E8AF908A-8066-4387-8DBE-80DBB37143AA}
+		SolutionGuid = {5EAF1DD7-BEF4-4AF4-BE1F-451859340D45}
 	EndGlobalSection
 EndGlobal

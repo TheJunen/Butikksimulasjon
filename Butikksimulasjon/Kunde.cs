@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Regler for alkoholsalg:
 
-Det er ikke lov å kjøpe alkohol etter kl 20, dersom kunden ser eldre ut enn 25 kan de kjøpe uansett. 
-Dersom de ser yngre ut enn 25 må de fremvise gyldig legitimasjon som viser at de er over 18 år
-butikk, 3 kunder
- */
 namespace ButikkSimulasjon
 {
     internal class Kunde
@@ -78,7 +73,7 @@ namespace ButikkSimulasjon
         public Kunde(int alder, bool legitimasjon, int gjetningAvAlder, int ankomstAvKasse)
         {
             Alder = alder;
-            legitimasjon = legitimasjon;
+            this.legitimasjon = legitimasjon;
             GjetningAvAlder = gjetningAvAlder;
             AnkomstKasse = ankomstAvKasse;
             Penger = GenererPengetallForKunde();
