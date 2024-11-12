@@ -15,8 +15,10 @@ namespace ButikkSimulasjon
 
         internal void KjørButikkSimulasjon() //hovedapplikasjonen. Inneholder bare cw og simpel logikk
         {
-            Console.WriteLine("Velkommen til ButikkSimulasjon. Her skal 3 kunder prøve å kjøpe alkohol," +
-                " basert på tidspunkt de kjøper, om de er over 18 år og om legitimasjon trengs hvis der ser yngre ut enn 25.");
+            Console.WriteLine("Velkommen til ButikkSimulasjon. 3 kunder simuleres og opptil 6 varetyper vil bli lagt til i kunde's handlekurv. " +
+                "Kunder for en tilfeldig generert pengesum og hvis kunde ikke har nok vil trekning av varer metode kjøres hvis kunde ønsker å fullføre kjøpet." +
+                "Kunder har mulighet til prøve å kjøpe alkohol basert på om random genererer varen i handlekurven.," +
+                "Hvis alkohol blir funnet vil regler som basert på tidspunkt de kjøper, om de er over 18 år og om legitimasjon trengs hvis der ser yngre ut enn 25 kjøres.");
             Console.WriteLine("Det er ikke lov å kjøpe alkohol etter kl 20. Nå kjøres simulasjonen:");
 
             Butikk butikk = new Butikk();
